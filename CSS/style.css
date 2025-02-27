@@ -1,11 +1,10 @@
 :root {
-    --primary: #2c1a1d;
-    --accent: #c90a02;
-    --light: #f5f1e3;
-    --dark: #1a110f;
-  }
-  
-  * {
+  --primary: #2c1a1d;
+  --accent: #c90a02;
+  --light: #f5f1e3;
+  --dark: #1a110f;
+}
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -115,7 +114,7 @@
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
   
-  /* Add to existing CSS */
+  
   .menu {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -173,7 +172,7 @@
     width: 3px;
     background: var(--accent);
   }
-  /* Add to existing CSS */
+  
   .about {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -293,8 +292,7 @@
       order: -1;
     }
   }
-  
-  
+
   .contact-section {
     padding: 2rem;
   }
@@ -316,5 +314,4 @@
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
-    box:
   }
